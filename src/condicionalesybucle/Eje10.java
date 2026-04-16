@@ -25,7 +25,7 @@ public class Eje10 {
             int opcio= Sc.nextInt();
             
             
-        switch (opcio){
+        switch (opcion){
             case 1:
                 System.out.println("Saludar");
                 break;

@@ -5,29 +5,24 @@
 package condicionalesybucle;
 
 /** // 
-EJERCICIO 11 - Tabla de multiplicar
-Pedir un número y mostrar su tabla del 1 al 10.
-
+EJERCICIO 12 - Suma acumulada
+Mostrar la suma de los números del 1 al 100.
 
  *
  * @author juann
  */
 import java.util.Scanner;
-public class Eje11 {
+public class Eje12 {
     public static void main(String[] args) {
         Scanner Sc=new Scanner (System.in);
         
-        System.out.println("Ingresar el numero ");
-        int Numero=Sc.nextInt();
+        int suma=0;
         
-        System.out.println("La tabla del numero:"+Numero);
+         for (int i=1;i<=100; i++) {
+             suma+=i;
+            }
+        System.out.println("La suma de los numeros del 1 al 100:"+suma);
         
-        for (int i=1;i<=10; i++) {
-           System.out.println(Numero +"x"+i+"="+(Numero*i));
-  
-        }
-
-
     }
     
 }
